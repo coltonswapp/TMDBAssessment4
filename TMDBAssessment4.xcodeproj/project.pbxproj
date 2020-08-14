@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		75445BAD24E6E27D00319A27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75445BAC24E6E27D00319A27 /* AppDelegate.m */; };
 		75445BB024E6E27D00319A27 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75445BAF24E6E27D00319A27 /* SceneDelegate.m */; };
-		75445BB324E6E27D00319A27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75445BB224E6E27D00319A27 /* ViewController.m */; };
 		75445BB624E6E27D00319A27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75445BB424E6E27D00319A27 /* Main.storyboard */; };
 		75445BB824E6E27E00319A27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75445BB724E6E27E00319A27 /* Assets.xcassets */; };
 		75445BBB24E6E27E00319A27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75445BB924E6E27E00319A27 /* LaunchScreen.storyboard */; };
 		75445BBE24E6E27E00319A27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75445BBD24E6E27E00319A27 /* main.m */; };
+		75445BCC24E6E34D00319A27 /* CBSMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 75445BCB24E6E34D00319A27 /* CBSMovie.m */; };
+		75445BCF24E6E60700319A27 /* CBSImageURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 75445BCE24E6E60700319A27 /* CBSImageURL.m */; };
+		75445BD224E6E98C00319A27 /* CBSMovieController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75445BD124E6E98C00319A27 /* CBSMovieController.m */; };
+		75445BDB24E6F5BD00319A27 /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75445BDA24E6F5BD00319A27 /* MovieTableViewController.swift */; };
+		75445BDD24E6F5CF00319A27 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75445BDC24E6F5CF00319A27 /* MovieTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +26,20 @@
 		75445BAC24E6E27D00319A27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		75445BAE24E6E27D00319A27 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		75445BAF24E6E27D00319A27 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		75445BB124E6E27D00319A27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		75445BB224E6E27D00319A27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		75445BB524E6E27D00319A27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75445BB724E6E27E00319A27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75445BBA24E6E27E00319A27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75445BBC24E6E27E00319A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75445BBD24E6E27E00319A27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75445BCA24E6E34D00319A27 /* CBSMovie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBSMovie.h; sourceTree = "<group>"; };
+		75445BCB24E6E34D00319A27 /* CBSMovie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBSMovie.m; sourceTree = "<group>"; };
+		75445BCD24E6E60700319A27 /* CBSImageURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBSImageURL.h; sourceTree = "<group>"; };
+		75445BCE24E6E60700319A27 /* CBSImageURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBSImageURL.m; sourceTree = "<group>"; };
+		75445BD024E6E98C00319A27 /* CBSMovieController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBSMovieController.h; sourceTree = "<group>"; };
+		75445BD124E6E98C00319A27 /* CBSMovieController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBSMovieController.m; sourceTree = "<group>"; };
+		75445BD924E6F5BC00319A27 /* TMDBAssessment4-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TMDBAssessment4-Bridging-Header.h"; sourceTree = "<group>"; };
+		75445BDA24E6F5BD00319A27 /* MovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
+		75445BDC24E6F5CF00319A27 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,19 +72,74 @@
 		75445BAA24E6E27D00319A27 /* TMDBAssessment4 */ = {
 			isa = PBXGroup;
 			children = (
+				75445BC924E6E32000319A27 /* CustomCells */,
+				75445BC824E6E31B00319A27 /* Model */,
+				75445BC524E6E30900319A27 /* Controllers */,
+				75445BC424E6E2DF00319A27 /* Resources */,
+				75445BB424E6E27D00319A27 /* Main.storyboard */,
+			);
+			path = TMDBAssessment4;
+			sourceTree = "<group>";
+		};
+		75445BC424E6E2DF00319A27 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				75445BAB24E6E27D00319A27 /* AppDelegate.h */,
 				75445BAC24E6E27D00319A27 /* AppDelegate.m */,
 				75445BAE24E6E27D00319A27 /* SceneDelegate.h */,
 				75445BAF24E6E27D00319A27 /* SceneDelegate.m */,
-				75445BB124E6E27D00319A27 /* ViewController.h */,
-				75445BB224E6E27D00319A27 /* ViewController.m */,
-				75445BB424E6E27D00319A27 /* Main.storyboard */,
 				75445BB724E6E27E00319A27 /* Assets.xcassets */,
 				75445BB924E6E27E00319A27 /* LaunchScreen.storyboard */,
 				75445BBC24E6E27E00319A27 /* Info.plist */,
 				75445BBD24E6E27E00319A27 /* main.m */,
 			);
-			path = TMDBAssessment4;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		75445BC524E6E30900319A27 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				75445BC724E6E31300319A27 /* ModelControllers */,
+				75445BC624E6E30F00319A27 /* ViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		75445BC624E6E30F00319A27 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				75445BDA24E6F5BD00319A27 /* MovieTableViewController.swift */,
+				75445BD924E6F5BC00319A27 /* TMDBAssessment4-Bridging-Header.h */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		75445BC724E6E31300319A27 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				75445BD024E6E98C00319A27 /* CBSMovieController.h */,
+				75445BD124E6E98C00319A27 /* CBSMovieController.m */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		75445BC824E6E31B00319A27 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				75445BCA24E6E34D00319A27 /* CBSMovie.h */,
+				75445BCB24E6E34D00319A27 /* CBSMovie.m */,
+				75445BCD24E6E60700319A27 /* CBSImageURL.h */,
+				75445BCE24E6E60700319A27 /* CBSImageURL.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		75445BC924E6E32000319A27 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				75445BDC24E6F5CF00319A27 /* MovieTableViewCell.swift */,
+			);
+			path = CustomCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,11 +168,13 @@
 		75445BA024E6E27D00319A27 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CBS;
 				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = "Colton Swapp";
 				TargetAttributes = {
 					75445BA724E6E27D00319A27 = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
 					};
 				};
 			};
@@ -146,10 +214,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75445BB324E6E27D00319A27 /* ViewController.m in Sources */,
+				75445BDB24E6F5BD00319A27 /* MovieTableViewController.swift in Sources */,
 				75445BAD24E6E27D00319A27 /* AppDelegate.m in Sources */,
+				75445BCC24E6E34D00319A27 /* CBSMovie.m in Sources */,
 				75445BBE24E6E27E00319A27 /* main.m in Sources */,
 				75445BB024E6E27D00319A27 /* SceneDelegate.m in Sources */,
+				75445BCF24E6E60700319A27 /* CBSImageURL.m in Sources */,
+				75445BDD24E6F5CF00319A27 /* MovieTableViewCell.swift in Sources */,
+				75445BD224E6E98C00319A27 /* CBSMovieController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,15 +361,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X89M6X46Y8;
-				INFOPLIST_FILE = TMDBAssessment4/Info.plist;
+				INFOPLIST_FILE = TMDBAssessment4/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.SwappDev.TMDBAssessment4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TMDBAssessment4/Controllers/ViewControllers/TMDBAssessment4-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -306,15 +382,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X89M6X46Y8;
-				INFOPLIST_FILE = TMDBAssessment4/Info.plist;
+				INFOPLIST_FILE = TMDBAssessment4/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.SwappDev.TMDBAssessment4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TMDBAssessment4/Controllers/ViewControllers/TMDBAssessment4-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
